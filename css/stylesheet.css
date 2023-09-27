@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    background-image: url("background.jpeg");
+}
+
+header {
+    background-color: rgb(122, 205, 208);
+    color: black;
+    padding: 20px 0;
+/*  display: flex; */
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.logo img {
+    max-width: 70px; 
+    background-color: rgb(122, 205, 208);
+}
+
+.header-content {
+    margin-left: 120px; 
+}
+
+.header-content h1 {
+    margin: 0;
+    background-color: rgb(122, 205, 208);
+}
+
+.title h1 {
+    margin-left: 10px; 
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fff; 
+}
+
+hr {
+    height: 3px;
+    background-color: black;
+    border-color: black;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: black;
+    font-size: medium;
+}
+
+footer {
+    font-size: 14px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.datos {
+    font-style: italic;
+}
+
+.fotoIndex {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fotoIndex img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+    background-color: rgb(223, 229, 235);
+}
+
+.PlanBcafecito {
+    background-color: rgb(122, 205, 208);
+}
+
+
+.menu {
+    width: 80%;
+    background-color: rgb(41, 105, 150);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 600px;
+}
+  
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.comida, .bebida, .infusiones {
+    text-align: left;
+    width: 75%;
+}
+
+.precio {
+    text-align: right;
+    width: 25%;
+}
+
+.direccion {
+    margin-bottom: 5px;
+}
+
+.menu-nav {
+    text-align: center;
+}
+
+#titulo-menu {
+    text-align: center;
+}
+
+#p-izq {
+    text-align: left;
+}
+
+.ref {
+    background-color: rgb(122, 205, 208);
+}

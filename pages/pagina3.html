@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="shortcut icon" href="../assets/taza-de-cafe-negra.png" type="image/x-icon"> 
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="menu">
+        <main>
+            <div>
+                <h1 id="titulo-menu">PlanB Cafecito</h1>
+                <p class="datos">Martes a Domingos de 8:30 a 12:00 hs</p>
+                <p class="datos">Instagram: @PlanBCafecito</p>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div>
+                <h1 id="titulo-menu">Dejanos tu opinión!</h1>  
+                <form action="ejemplo.php" method="post">
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre"> <br>
+                    <label for="apellido">Apellido: </label>
+                    <input type="text" name="apellido"> <br>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email"><br>
+                    <p id="p-izq">Que te parece que podriamos mejorar?</p>
+                    <textarea name="comentario" id="comentario" cols="50" rows="10"></textarea><br>
+                    <input type="reset" value="Borrar">
+                    <input type="submit" value="Enviar">
+                </form>  
+            </div>
+        </main>
+        <br>
+        <hr>
+        <footer>
+            <p class="direccion datos">Av. Monroe 1555, Villa Urquiza, CABA</p>
+        </footer>
+    </div>
+    
+</body>
+</html>
