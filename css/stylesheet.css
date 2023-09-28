@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: cadetblue;
+    /* background-colo#5f9ea0lue; */
 }
 
 @font-face {
@@ -15,15 +15,17 @@ body {
     background-image: url("background.jpeg");
 }
 
+/* 
 header {
     background-color: rgb(122, 205, 208);
     color: black;
     padding: 20px 0;
-/*  display: flex; */
     position: relative;
     justify-content: space-between;
     align-items: center;
-}
+} */
+
+
 
 .logo {
     position: absolute;
@@ -34,7 +36,6 @@ header {
 
 .logo img {
     max-width: 70px; 
-    background-color: rgb(122, 205, 208);
 }
 
 .header-content {
@@ -124,13 +125,12 @@ img {
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
-    
     background-color: rgb(223, 229, 235);
 }
 
-.PlanBcafecito {
+/* .PlanBcafecito {
     background-color: rgb(122, 205, 208);
-}
+} */
 
 
 .menu {
@@ -178,4 +178,7 @@ img {
 
 .ref {
     background-color: rgb(122, 205, 208);
-}
+} /*utilice esta clase que ya habia creado previamente para otros elementos*/
+
+.navbar-toggler {
+    background-color: cadetblue;
