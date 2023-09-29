@@ -15,37 +15,11 @@ body {
     background-image: url("background.jpeg");
 }
 
-/* 
-header {
-    background-color: rgb(122, 205, 208);
-    color: black;
-    padding: 20px 0;
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
-} */
 
-
-
-.logo {
-    position: absolute;
-    left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
+.header-titulo {
+    font-size: x-large;
 }
 
-.logo img {
-    max-width: 70px; 
-}
-
-.header-content {
-    margin-left: 120px; 
-}
-
-.header-content h1 {
-    margin: 0;
-    background-color: rgb(122, 205, 208);
-}
 
 .title h1 {
     margin-left: 10px; 
@@ -102,31 +76,35 @@ footer {
     font-size: 14px;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .datos {
     font-style: italic;
 }
 
-.fotoIndex {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
-.fotoIndex img {
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+  .gallery img {
     width: 100%;
     max-width: 350px;
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
-    background-color: rgb(223, 229, 235);
-}
+  }
+  
+  .gallery::after {
+    content: "";
+    width: 350px;
+  }
 
 /* .PlanBcafecito {
     background-color: rgb(122, 205, 208);
@@ -182,3 +160,8 @@ img {
 
 .navbar-toggler {
     background-color: cadetblue;
+}
+
+#logo {
+    padding: 3px;
+}

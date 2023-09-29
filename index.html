@@ -10,40 +10,38 @@
     <link rel="shortcut icon" href="./assets/taza-de-cafe-negra.png" type="image/x-icon"> 
     <title>PlanB</title>
 </head>
-<body class="">
+<body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light ref" style="background-color: #e3f2fd;">
-            <a class="navbar-brand ref" href="#">
-                <img src="./assets/taza-de-cafe-negra.png" width="30" height="30" class="d-inline-block align-top" alt="Logo">
-            <a class="navbar-brand" href="#">PlanB Cafecito</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg bg-light" style="background-color: #e3f2fd;">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/taza-de-cafe-negra.png" width="30" height="30" id="logo" class="d-inline-block align-top " alt="Logo">
+                <p class="d-inline-block header-titulo">PlanB Cafecito</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end ref" id="navbarNav">
-                <ul class="navbar-nav ref">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link ref" href="../pages/pagina1.html" class="ref">Menú</a>
+                    <a class="nav-link" href="../pages/pagina1.html" >Menú</a>
                 </li>
-                <li class="nav-item active ref">
-                    <a class="nav-link" href="../pages/pagina2.html" class="ref">Reservas</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/pagina2.html" >Reservas</a>
                 </li>
-                <li class="nav-item active ref">
-                    <a class="nav-link" href="../pages/pagina3.html" class="ref">Opiniones</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/pagina3.html" >Opiniones</a>
                 </li>
                 </ul>
             </div>
-            </nav>
+        </nav>
     </header>
     <hr>
-    <br>
-    <main>
+    <main class="d-flex">
         <br>
-        <section>
-            <div class="fotoIndex">
-                <img class="lugar" src="./assets/img/Coffee_PlantShop.jpeg" alt="imagen tomada del bar">
-            </div>
-            <div class="fotoIndex">
-                <img class="lugars" src="./assets/img/Coffeeshop.jpeg" alt="imagen tomada del bar">
+        <section class="d-inline-block">
+            <div class="gallery">
+                <img src="./assets/img/Coffee_PlantShop.jpeg" alt="imagen tomada del bar">
+                <img src="./assets/img/Coffeeshop.jpeg" alt="imagen tomada del bar">
             </div>
             <p>Bienvenidos a PlanB Cafecito, un ambiente hermoso donde tomarte un cafe rodeado de muchas plantas. Ideal para traerte un libro o la computadora y sentarse a relajarse. Veni con tus amigos a disfrutar de la paz! (y capaz a adoptar alguna plantita?)</p>
         </section>
