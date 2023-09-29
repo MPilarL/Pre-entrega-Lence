@@ -15,6 +15,52 @@ body {
     background-image: url("background.jpeg");
 }
 
+.contenedor {
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Header, Main Content, Footer */
+    min-height: 100vh; /* Ensure the grid takes up at least the viewport height */
+}
+
+/* Style the header */
+.header-grid {
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+}
+
+/* Style the main content area */
+.main-grid {
+    padding: 20px;
+}
+
+/* Create a grid layout for the plant information section */
+.plant-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Image and Description side by side */
+    gap: 20px; /* Adjust the gap as needed */
+}
+
+.plant-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.plant-description {
+    background-color: #f0f0f0; /* Background color for the description */
+    padding: 20px;
+}
+
+/* Style the additional information section */
+.additional-info {
+    margin-top: 20px; /* Add spacing between the plant info and additional info */
+}
+
+/* Style the footer */
+.footer-grid {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
 
 .header-titulo {
     font-size: x-large;
@@ -91,25 +137,24 @@ footer {
     max-width: 1400px;
     margin: 0 auto;
     padding: 20px 10px;
-  }
+}
   
-  .gallery img {
+.gallery img {
     width: 100%;
     max-width: 350px;
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
-  }
+}
   
-  .gallery::after {
+.gallery::after {
     content: "";
     width: 350px;
-  }
+}
 
 /* .PlanBcafecito {
     background-color: rgb(122, 205, 208);
 } */
-
 
 .menu {
     width: 80%;
