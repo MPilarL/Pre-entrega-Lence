@@ -37,7 +37,7 @@ body {
 .plant-info {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Image and Description side by side */
-    gap: 20px; /* Adjust the gap as needed */
+    gap: 20px; 
 }
 
 .plant-image img {
@@ -122,6 +122,8 @@ footer {
     font-size: 14px;
 }
 
+
+
 .datos {
     font-style: italic;
 }
@@ -141,7 +143,7 @@ footer {
   
 .gallery img {
     width: 100%;
-    max-width: 350px;
+    max-width: 450px;
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
@@ -203,10 +205,14 @@ footer {
     background-color: rgb(122, 205, 208);
 } /*utilice esta clase que ya habia creado previamente para otros elementos*/
 
-.navbar-toggler {
+ /* .navbar-toggler {
     background-color: cadetblue;
-}
+}  */
 
 #logo {
     padding: 3px;
+}
+
+.dalineado {
+    text-align: start;
 }
