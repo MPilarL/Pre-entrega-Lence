@@ -120,9 +120,8 @@ a {
 
 footer {
     font-size: 14px;
+    padding: 10px;
 }
-
-
 
 .datos {
     font-style: italic;
@@ -160,7 +159,7 @@ footer {
 
 .menu {
     width: 80%;
-    background-color: rgb(41, 105, 150);
+    background-color: rgb(95, 148, 186);
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -215,4 +214,11 @@ footer {
 
 .dalineado {
     text-align: start;
+}
+
+.item-menu {
+    padding: 10px;
+}
+#fondo-menu {
+    background-image: url("../assets/img/background.jpeg");
 }
