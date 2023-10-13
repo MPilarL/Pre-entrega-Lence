@@ -55,7 +55,6 @@ body {
     margin-top: 20px; /* Add spacing between the plant info and additional info */
 }
 
-/* Style the footer */
 .footer-grid {
     background-color: #e2e4e6;
     color: #fff;
@@ -146,6 +145,11 @@ footer {
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
+    transition: 500ms;
+}
+
+.gallery img:hover {
+    transform: scale(1.2);
 }
   
 .gallery::after {
