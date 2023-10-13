@@ -169,7 +169,6 @@ footer {
     padding: 20px;
     max-width: 600px;
 }
-  
 
 .item p {
     display: inline-block;
@@ -230,4 +229,8 @@ footer {
 }
 #fondo-menu {
     background-image: url("../assets/img/background.jpeg");
+}
+
+.form-group {
+    padding: 10px;
 }
