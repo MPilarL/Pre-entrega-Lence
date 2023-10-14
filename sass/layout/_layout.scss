@@ -14,3 +14,9 @@ $padd: 20px;
     padding: $padd;
     max-width: 600px;
 }
+
+hr {
+    height: 3px;
+    background-color: $negro;
+    border-color: $negro;
+}
