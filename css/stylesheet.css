@@ -36,7 +36,7 @@ body {
 /* Create a grid layout for the plant information section */
 .plant-info {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Image and Description side by side */
+    grid-template-columns: 1fr 1fr; 
     gap: 20px; 
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 .plant-description {
-    background-color: #f0f0f0; /* Background color for the description */
+    background-color: #f0f0f0;
     padding: 20px;
 }
 
@@ -57,14 +57,13 @@ body {
 
 .footer-grid {
     background-color: #e2e4e6;
-    color: #fff;
+    color: #000000;
     padding: 20px;
 }
 
 .header-titulo {
     font-size: x-large;
 }
-
 
 .title h1 {
     margin-left: 10px; 
@@ -211,10 +210,6 @@ footer {
 .ref {
     background-color: rgb(122, 205, 208);
 } /*utilice esta clase que ya habia creado previamente para otros elementos*/
-
- /* .navbar-toggler {
-    background-color: cadetblue;
-}  */
 
 #logo {
     padding: 3px;
