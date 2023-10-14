@@ -2,9 +2,15 @@ $color-claro: rgb(160, 160, 224);
 $color-oscuro: rgb(119, 119, 240);
 $negro: black;
 $color-menu: rgb(95, 148, 186);
+$color-ppal: rgb(122, 205, 208);
+$padd: 20px;
 
-body {
-    .menu{
-        background-color: $color-menu;
-    }
+
+.menu {
+    width: 80%;
+    background-color: $color-menu;
+    margin-left: auto;
+    margin-right: auto;
+    padding: $padd;
+    max-width: 600px;
 }

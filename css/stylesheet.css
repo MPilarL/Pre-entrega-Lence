@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* background-colo#5f9ea0lue; */
 }
 
 @font-face {
@@ -18,22 +17,19 @@ body {
 .contenedor {
     display: grid;
     grid-template-rows: auto 1fr auto; /* Header, Main Content, Footer */
-    min-height: 100vh; /* Ensure the grid takes up at least the viewport height */
+    min-height: 100vh; 
 }
 
-/* Style the header */
 .header-grid {
     background-color: #333;
     color: #fff;
     padding: 0px;
 }
 
-/* Style the main content area */
 .main-grid {
     padding: 20px;
 }
 
-/* Create a grid layout for the plant information section */
 .plant-info {
     display: grid;
     grid-template-columns: 1fr 1fr; 
@@ -50,9 +46,8 @@ body {
     padding: 20px;
 }
 
-/* Style the additional information section */
 .additional-info {
-    margin-top: 20px; /* Add spacing between the plant info and additional info */
+    margin-top: 20px;
 }
 
 .footer-grid {
@@ -156,9 +151,6 @@ footer {
     width: 350px;
 }
 
-/* .PlanBcafecito {
-    background-color: rgb(122, 205, 208);
-} */
 
 .menu {
     width: 80%;
@@ -203,25 +195,14 @@ footer {
     text-decoration: none;
 }
 
-#p-izq {
-    text-align: left;
-}
-
-.ref {
-    background-color: rgb(122, 205, 208);
-} /*utilice esta clase que ya habia creado previamente para otros elementos*/
-
 #logo {
     padding: 3px;
-}
-
-.dalineado {
-    text-align: start;
 }
 
 .item-menu {
     padding: 10px;
 }
+
 #fondo-menu {
     background-image: url("../assets/img/background.jpeg");
 }
