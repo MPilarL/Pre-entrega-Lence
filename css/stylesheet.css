@@ -154,7 +154,8 @@ footer {
 
 .menu {
     width: 80%;
-    background-color: rgb(95, 148, 186);
+    /* background-color: rgb(95, 148, 186); */
+    background-color: #f0f0f0;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
